@@ -1,0 +1,65 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: #cd0022;
+  color: white;
+}
+
+.blue {
+  background-color: #275db3;
+  color: white;
+}
+.home {
+  background-color: #f5f5f5;  /* You can change this to any color of your preference */
+}
+
+.orange {
+  background-color: #cd4f00;
+  color: white;
+}
+
+.purple {
+  background-color: #8900cd;
+  color: white;
+}
+
+.gray {
+  background-color: #4e4e4e;
+  color: white;
+}
+
